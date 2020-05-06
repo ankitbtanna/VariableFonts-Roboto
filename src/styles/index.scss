@@ -1,0 +1,327 @@
+/* TTF Fonts */
+@font-face {
+  font-family: slb-standard;
+  src: url('./fonts/Roboto-Black.ttf');
+}
+
+@font-face {
+  font-family: slb-standard-italic;
+  src: url('./fonts/Roboto-BlackItalic.ttf');
+}
+
+@font-face {
+  font-family: slb-bold;
+  src: url('./fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: slb-bold-italic;
+  src: url('./fonts/Roboto-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: slb-italic;
+  src: url('./fonts/Roboto-Italic.ttf');
+}
+
+@font-face {
+  font-family: slb-light;
+  src: url('./fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: slb-light-italic;
+  src: url('./fonts/Roboto-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: slb-medium;
+  src: url('./fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: slb-medium-italic;
+  src: url('./fonts/Roboto-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: slb-regular;
+  src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: slb-thin;
+  src: url('./fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+  font-family: slb-thin-italic;
+  src: url('./fonts/Roboto-ThinItalic.ttf');
+}
+
+@font-face {
+  font-family: slb-condensed-bold;
+  src: url('./fonts/RobotoCondensed-Bold.ttf');
+}
+
+@font-face {
+  font-family: slb-condensed-bold-italic;
+  src: url('./fonts/RobotoCondensed-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: slb-condensed-italic;
+  src: url('./fonts/RobotoCondensed-Italic.ttf');
+}
+
+@font-face {
+  font-family: slb-condensed-light;
+  src: url('./fonts/RobotoCondensed-Light.ttf');
+}
+
+@font-face {
+  font-family: slb-condensed-light-italic;
+  src: url('./fonts/RobotoCondensed-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: slb-condensed-regular;
+  src: url('./fonts/RobotoCondensed-Regular.ttf');
+}
+/* TTF Fonts */
+
+@font-face {
+  font-family: slb-roboto-vf;
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-style: oblique 0deg 12deg;
+  font-display: swap;
+  src: url('fonts/Roboto-VF.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  font-synthesis: none;
+}
+
+/* Resets */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  border: 1px solid red;
+  height: auto;
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid darkblue;
+
+  label {
+    font-size: 18px;
+    margin-left: 20px;
+    font-family: slb-bold;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.content {
+  font-size: 30px;
+  padding: 0 20px 20px;
+  border-bottom: 1px solid black;
+}
+
+.content-vf {
+  font-size: 30px;
+  padding: 0 19px 18px 19px;
+  border-bottom: 1px solid black;
+}
+
+.font-slb-regular {
+  font-family: slb-regular;
+}
+
+.font-slb-italic {
+  font-family: slb-italic;
+}
+
+.font-slb-thin {
+  font-family: slb-thin;
+}
+
+.font-slb-thin-italic {
+  font-family: slb-thin-italic;
+}
+
+.font-slb-light {
+  font-family: slb-light;
+}
+
+.font-slb-light-italic {
+  font-family: slb-light-italic;
+}
+
+.font-slb-medium {
+  font-family: slb-medium;
+}
+
+.font-slb-medium-italic {
+  font-family: slb-medium-italic;
+}
+
+.font-slb-bold {
+  font-family: slb-bold;
+}
+
+.font-slb-bold-italic {
+  font-family: slb-bold-italic;
+}
+
+.font-slb-standard {
+  font-family: slb-standard;
+}
+
+.font-slb-standard-italic {
+  font-family: slb-standard-italic;
+}
+
+.font-slb-condensed-regular {
+  font-family: slb-condensed-regular;
+}
+
+.font-slb-condensed-italic {
+  font-family: slb-condensed-italic;
+}
+
+.font-slb-condensed-bold {
+  font-family: slb-condensed-bold;
+}
+
+.font-slb-condensed-bold-italic {
+  font-family: slb-condensed-bold-italic;
+}
+
+.font-slb-condensed-light {
+  font-family: slb-condensed-light;
+}
+
+.font-slb-condensed-light-italic {
+  font-family: slb-condensed-light-italic;
+}
+
+.v-font-slb-regular {
+  font-family: slb-roboto-vf;
+}
+
+.v-font-slb-italic {
+  font-family: slb-roboto-vf;
+  font-style: oblique 12deg;
+}
+
+.v-font-slb-thin {
+  font-family: slb-roboto-vf;
+  font-weight: 100;
+}
+
+.v-font-slb-thin-italic {
+  font-family: slb-roboto-vf;
+  font-weight: 100;
+  font-style: oblique 12deg;
+}
+
+.v-font-slb-light {
+  font-family: slb-roboto-vf;
+  font-weight: 300;
+}
+
+.v-font-slb-light-italic {
+  font-family: slb-roboto-vf;
+  font-weight: 300;
+  font-style: oblique 12deg;
+}
+
+.v-font-slb-medium {
+  font-family: slb-roboto-vf;
+  font-weight: 500;
+}
+
+.v-font-slb-medium-italic {
+  font-family: slb-roboto-vf;
+  font-weight: 500;
+  font-style: oblique 12deg;
+}
+
+.v-font-slb-bold {
+  font-family: slb-roboto-vf;
+  font-weight: 700;
+}
+
+.v-font-slb-bold-italic {
+  font-family: slb-roboto-vf;
+  font-weight: 700;
+  font-style: oblique 12deg;
+}
+
+.v-font-slb-standard {
+  font-family: slb-roboto-vf;
+  font-weight: 900;
+}
+
+.v-font-slb-standard-italic {
+  font-family: slb-roboto-vf;
+  font-weight: 900;
+  font-style: oblique 12deg;
+}
+
+.v-font-slb-condensed-regular {
+  font-family: slb-roboto-vf;
+  font-variation-settings: 'wdth' 1;
+}
+
+.v-font-slb-condensed-italic {
+  font-family: slb-roboto-vf;
+  font-variation-settings: 'wdth' 1;
+  font-style: oblique 12deg;
+}
+
+.v-font-slb-condensed-bold {
+  font-family: slb-roboto-vf;
+  font-variation-settings: 'wdth' 1;
+  font-weight: 700;
+}
+
+.v-font-slb-condensed-bold-italic {
+  font-family: slb-roboto-vf;
+  font-variation-settings: 'wdth' 1;
+  font-weight: 700;
+  font-style: oblique 12deg;
+}
+
+.v-font-slb-condensed-light {
+  font-family: slb-roboto-vf;
+  font-variation-settings: 'wdth' 1;
+  font-weight: 300;
+}
+
+.v-font-slb-condensed-light-italic {
+  font-family: slb-roboto-vf;
+  font-variation-settings: 'wdth' 1;
+  font-weight: 300;
+  font-style: oblique 12deg;
+}
